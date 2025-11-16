@@ -7,13 +7,13 @@ Tema website yang diambil adalah **musik**, berisi daftar genre, band favorit, s
 
 ## 👤 Identitas Mahasiswa
 **Nama:** Deni Septiawan  
-**NIM:** (isi di sini)
+**NIM:** L0325020
 
 ---
 
 ## 🌐 Link Deployment
-**Website:** (isi setelah deploy ke Netlify)  
-**Repository GitHub:** (link repo ini sendiri)
+**Website:** 
+**Repository GitHub:** https://github.com/deniawaan/Final-Project-Front-End/edit/main/README.md
 
 ---
 
