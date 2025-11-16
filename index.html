@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Playlist Music By Deni Awaan</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<script>
+  document.addEventListener("click", function() {
+    const music = document.getElementById("bgMusic");
+    music.muted = false;
+  }, { once: true });
+</script>
+<body>
+  <header>
+    <nav class="navbar">
+      <h1 class="logo"><a href="https://open.spotify.com/user/31r76jedbxqn4m7h6op53uq3dfau?si=6ef46ebb7bb94733/" target="_blank">DENI AWAAN</a></h1>
+      <ul class="nav-links">
+        <li><a href="#genre">Genre</a></li>
+        <li><a href="#artist">Band Favorit</a></li>
+        <li><a href="#songs">Lagu Favorit</a></li>
+      </ul>
+    </nav>
+  </header>
+ <audio id="bgMusic" autoplay loop muted>
+    <source src="music/Hermione - The Coffeeshop Where We First Met Right at the Corner & Love Letter.mp3" type="audio/mpeg">
+  </audio>
+  <main>
+    <!-- SECTION INTRO -->
+<section id="intro">
+  <h1>Terima kasih telah berkunjung ke website aku guys, disini isinya mengenai musik, playlist, dan band band yg sering aku dengerin. Walaupun ini cuma sekilas ya guys, karena kalau aku masukin semua musik atau band yg sering aku denger bakalan banyak bgt, ini juga websitenya masih sederhana bgt dan terkesan berantakan, aku bakal terus belajar membenahi website. HAPPY SCROLLING!!! oiya sambil scrolling jangan lupa sambil dengerin musik dengan menekan pause atau play button di pojok kanan bawah.</h1>
+</section>
+
+<!-- SECTION GENRE -->
+<section id="genre">
+  <h2>Genre Musik</h2>
+  <p>Ini genre fav aku guys, kalian bisa klik buat shortcut ke list band dari genre tersebut.</p>
+  <ul class="genre-list">
+    <li><a href="#shoegaze">🎸 Shoegaze</a></li>
+    <li><a href="#midwest-emo">🎸 Midwest emo</a></li>
+    <li><a href="#alt-rock">🎸 Alternatif Rock</a></li>
+    <li><a href="#britpop">🎸 Britpop</a></li>
+    <li><a href="#math-rock">🎸 Math Rock</a></li>
+  </ul>
+</section>
+
+    <!-- SECTION BAND FAVORIT -->
+    <section id="artist">
+      <h2>Band Favorit</h2>
+      <div class="artist-gallery">
+        <div class="artist-card">
+          <a href="#fstvlst-songs">
+            <img src="img/fstvlst.jpg" alt="FSTVLST">
+            <p>FSTVLST</p>
+          </a>
+        </div>
+        <div class="artist-card">
+          <a href="#theadams-songs">
+            <img src="img/the adams.jpg" alt="The Adams">
+            <p>The Adams</p>
+          </a>
+        </div>
+        <div class="artist-card">
+          <a href="#themilo-songs">
+            <img src="img/milo.jpeg" alt="Themilo">
+            <p>Themilo</p>
+          </a>
+        </div>
+         <div class="artist-card">
+          <a href="#thesigit-songs">
+            <img src="img/sigit.jpg" alt="The Sigit">
+            <p>The Sigit</p>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION BAND BERDASARKAN GENRE -->
+    <section id="shoegaze">
+      <h2>Band Shoegaze</h2>
+      <ul>
+        <li><a href="https://open.spotify.com/artist/59sKn5XeA4AI4WdrlW25aS/" target="_blank">Themilo</a></li>
+        <li><a href="https://open.spotify.com/artist/3TibpkNT0Jr3RflxZ0T2IN/" target="_blank">Enola</a></li>
+        <li><a href="https://open.spotify.com/artist/52VDpGdCBD0RnoXlpCYIgL/" target="_blank">Heals</a></li>
+      </ul>
+    </section>
+
+    <section id="midwest-emo">
+      <h2>Band Midwest Emo</h2>
+      <ul>
+        <li><a href="https://open.spotify.com/artist/2obLLc4blv37GYbFwqyE3t/" target="_blank">Eleventwelfth</a></li>
+        <li><a href="https://open.spotify.com/artist/1T7oAKo10EwQ2XmK7raEi4/" target="_blank">Beijing Connection</a></li>
+        <li><a href="https://open.spotify.com/artist/1T467lyC5sHN4DQnV5AIuW/" target="_blank">Hermione</a></li>
+      </ul>
+    </section>
+
+    <section id="alt-rock">
+      <h2>Band Alternatif Rock</h2>
+      <ul>
+        <li><a href="https://open.spotify.com/artist/0zuIBB0gRxp4i4E2gvrcoM/" target="_blank">The Adams</a></li>
+        <li><a href="https://open.spotify.com/artist/3uSvD31crYEsBLuiAFD02b/" target="_blank">Efek Rumah Kaca</a></li>
+        <li><a href="https://open.spotify.com/artist/4RLzLs2SHeyA0nLLlAJBg4/" target="_blank">The Sigit</a></li>
+        <li><a href="https://open.spotify.com/artist/3wiXzca9Rv1DXsqjaa2Mqv/" target="_blank">White Swan</a></li>
+        <li><a href="https://open.spotify.com/artist/0NbKRRBuiIUwS9irPvi7wD/" target="_blank">Perunggu</a></li>
+      </ul>
+    </section>
+
+    <section id="britpop">
+      <h2>Band Britpop</h2>
+      <ul>
+        <li><a href="https://open.spotify.com/artist/1Foqp2ngVCEaD2xKanB7QP/" target="_blank">Rumahsakit</a></li>
+        <li><a href="https://open.spotify.com/artist/0rewGqZI1o6eLWEgWo4Hyn/" target="_blank">Pure Saturday</a></li>
+        <li><a href="https://open.spotify.com/artist/5wm369wshLgPTaW2TDwkus/" target="_blank">White Shoes & The Couples Company</a></li>
+      </ul>
+    </section>
+
+    <section id="math-rock">
+      <h2>Band Math Rock</h2>
+      <ul>
+        <li><a href="https://open.spotify.com/artist/2DDfSj2dukX0wA8Xe0pk1N/" target="_blank">Murphy Radio</a></li>
+        <li><a href="https://open.spotify.com/artist/2N4RvcRKRXuScdbIkOZhf8/" target="_blank">Eastcape</a></li>
+      </ul>
+    </section>
+
+    <!-- SECTION LAGU FAVORIT -->
+    <section id="songs">
+      <h2>Lagu Favorit dari Band Favorit</h2>
+
+      <div id="fstvlst-songs">
+        <h3><a href="https://open.spotify.com/artist/1nqagRy1zxX6z9KtsfZhqf" target="_blank">FSTVLST</a></h3>
+        <ul>
+          <li>“Gas”</li>
+          <li>“Opus”</li>
+          <li>“Menantang Rasi Bintang”</li>
+        </ul>
+      </div>
+
+      <div id="theadams-songs">
+        <h3><a href="https://open.spotify.com/artist/0zuIBB0gRxp4i4E2gvrcoM" target="_blank">The Adams</a></h3>
+        <ul>
+          <li>“Hanya Kau”</li>
+          <li>“Konservatif”</li>
+        </ul>
+      </div>
+
+       <div id="thesigit-songs">
+        <h3><a href="https://open.spotify.com/artist/4RLzLs2SHeyA0nLLlAJBg4" target="_blank">The Sigit</a></h3>
+        <ul>
+          <li>“Conondrum”</li>
+          <li>“All the Time”</li>
+        </ul>
+      </div>
+
+      <div id="themilo-songs">
+        <h3><a href="https://open.spotify.com/artist/59sKn5XeA4AI4WdrlW25aS" target="_blank">Themilo</a></h3>
+        <ul>
+          <li>“Daun dan Ranting Menuju Surga”</li>
+          <li>“For All The Dreams That Wings Could Fly”</li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 DnAwaan l Playlist Music 🎶</p>
+  </footer>
+   <button id="musicBtn" class="music-btn">Pause Music</button>
+    <script>
+    const music = document.getElementById("bgMusic");
+    const btn = document.getElementById("musicBtn");
+
+    btn.addEventListener("click", function () {
+      if (music.paused) {
+        music.play();
+        btn.textContent = "Pause Music";
+      } else {
+        music.pause();
+        btn.textContent = "Play Music";
+      }
+    });
+  </script>
+</body>
+</html>
