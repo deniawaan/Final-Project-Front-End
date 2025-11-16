@@ -1,6 +1,6 @@
 # 🎵 Playlist Music Website – Final Project Frontend
 
-Website ini merupakan final project untuk mata kuliah Frontend Development.  
+Website ini merupakan final project untuk Learning Labs Frontend Development.  
 Tema website yang diambil adalah **musik**, berisi daftar genre, band favorit, serta playlist lagu yang sering didengarkan.
 
 ---
@@ -12,7 +12,7 @@ Tema website yang diambil adalah **musik**, berisi daftar genre, band favorit, s
 ---
 
 ## 🌐 Link Deployment
-**Website:** 
+**Website:** https://deniawaan-final-project.netlify.app/
 **Repository GitHub:** https://github.com/deniawaan/Final-Project-Front-End/edit/main/README.md
 
 ---
